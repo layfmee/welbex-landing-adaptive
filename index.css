@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+}
+a{
+    color: #fff;
+    text-decoration: none; /*убираем нижнее подчеркивание у ссылки */
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: black;
+    color:#fff;
+}
+
+.header__section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; /*центрируем по вспомонательной оси */
+}
+
+.header__item{
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.headerlogo{
+    font-style: italic;
+}
